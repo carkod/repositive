@@ -1,8 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Code Challenge for Repositive.
 
-In the project directory, you can run:
+- 
+
+
 
 ### `npm start`
 

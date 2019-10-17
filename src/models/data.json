@@ -1,15 +1,7 @@
-[
+{
+  "histogram": [
   {
-    "title": "Pets in Cambridge",
-    "data": {
-      "cat": 55,
-      "dog": 14,
-      "lizard": 37,
-      "elephant": 3
-    }
-  },
-  {
-    "title": "Pets in Cambridge",
+    "title": "Group by Primary site",
     "data": {
       "lung": 93,
       "kidney": 3,
@@ -17,7 +9,7 @@
     }
   },
   {
-    "title": "Pets in Cambridge",
+    "title": "Group by Disease",
     "data": {
       "nsclc": 75,
       "carcinoma": 18,
@@ -26,3 +18,4 @@
     }
   }
 ]
+}

@@ -1,14 +1,10 @@
 export interface IHistogram {
   title: string;
-  data: IData
+  data: any
 }
 
-export interface IData {
-  cat: Number,
-  dog: Number;
-  lizard: Number;
-}
 
-// export interface ITransformedData {
-  
-// }
+export interface IHistogramData {
+  name: string;
+  value: string;
+}

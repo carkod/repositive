@@ -14,17 +14,13 @@ function App() {
       </header>
       <main className="b-grid-2">
         <div className="b-block-1">
-          {data.histogram.map((x, i) => 
+          {data.histogram.map((x, i) =>
             <Fragment key={i}>
-            <TitleComponent text={x.title} />
-            <HistogramComponent data={x.data} color={random_rgba()} />
+              <TitleComponent text={x.title} />
+              <HistogramComponent data={x.data} color={random_rgba()} />
             </Fragment>
           )}
-          
         </div>
-        
-
-        <TitleComponent text="Group by Disease" />
       </main>
     </div>
   );

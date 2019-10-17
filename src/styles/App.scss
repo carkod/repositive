@@ -1,0 +1,31 @@
+@import './variables';
+
+.App-link {
+  color: #09d3ac;
+}
+
+.b-grid-2 {
+  display: grid;
+  grid-gap: 3rem;
+  grid-auto-rows: 3fr;
+  grid-template-columns: $half $half;
+  margin: 0;
+  padding:0;
+}
+
+.b-grid-3 {
+  display: grid;
+  grid-gap: 3rem;
+  grid-auto-rows: 3fr;
+  grid-template-columns: $one-third $one-third $one-third;
+  margin: 0;
+  padding:0;
+}
+
+.b-list-item__bar {
+  border-radius: 0.4rem;
+}
+
+.b-bottom-space {
+  margin-bottom: 1rem;
+}

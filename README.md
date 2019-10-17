@@ -1,70 +1,27 @@
-## Introduction
+## Installation
 
-Code Challenge for Repositive.
+The usual `npm install` and `npm start` should work
 
-- 
+## Tests
+
+The usual `npm run test`. Couldn't do much more as it would exceed time too much. Only focused on testing for purposes of the test.
 
 
+## Notes
 
-### `npm start`
+Code Challenge for Repositive. Completed:
+- [x] React application
+- [x] Shows name, occurrences and bar.
+- [x] Largest bar on top. Data manipulation:
+1. Turn object into a proper  `{ name: key, value: value }` type of array of objects (I would argue against doing this in front-end, but for the purposes of this test, I did it). Console.log shows the input data
+2. Separate data in the container component (App.js gets fed data only)
+- [x] Simple unit tests and one undefined test check
+- [x] Random colors, bar colors change in each refresh.
+- [x] Bar color fading (Simple math, I believe it is pretty efficient, at first I thought of doing it with switch)
+- [x] Functional style (higher order functions that can be expanded, very simple components for max reusability)
+- [x] CSS composition using BEM methodology, colors, mixins, would be imported into a central style.scss which would be imported in all components, modular component styles these optionally imported into each component that needs it.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Time restrictions did not allow (although I can do)
+- [ ] No API, no mock services
+- [ ] No state management. There are no actions, so there was no need for redux or state management
+- [ ] No async calls. The way I would deal with it, is using redux-saga, this avoids what I call the "Promise hell".then().then().then().then()....
